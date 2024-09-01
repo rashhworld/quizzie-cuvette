@@ -190,7 +190,7 @@ function AddQuestion({
       { id: 1, value: { text: "", image: "", response: 0 } },
       { id: 2, value: { text: "", image: "", response: 0 } },
     ]);
-    setCorrectAnswer("");
+    setCorrectAnswer(null);
   };
 
   const validateQuestion = () => {
